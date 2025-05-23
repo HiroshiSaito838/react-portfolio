@@ -5,14 +5,15 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
+// Import images
+import card1 from '../assets/1.jpg';
+import card2 from '../assets/2.jpg';
+import card3 from '../assets/3.jpg';
+import card4 from '../assets/4.jpg';
 
-const cardImages = [
-  "/card/1.jpg",
-  "/card/2.jpg",
-  "/card/3.jpg",
-  "/card/4.jpg"
-];
+const cardImages = [card1, card2, card3, card4];
 
 const swipeConfidenceThreshold = 100;
 const swipePower = (offset, velocity) => {
