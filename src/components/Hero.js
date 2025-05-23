@@ -198,6 +198,7 @@ const Hero = () => {
               grabCursor={true}
               centeredSlides={true}
               slidesPerView={1}
+              speed={1000}
               coverflowEffect={{
                 rotate: 50,
                 stretch: 0,
